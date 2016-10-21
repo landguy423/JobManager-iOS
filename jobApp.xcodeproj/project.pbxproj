@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C200567D1D25818A0065474C /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200567B1D25818A0065474C /* DescriptionCell.swift */; };
+		C200567E1D25818A0065474C /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C200567C1D25818A0065474C /* DescriptionCell.xib */; };
+		C211ED501D23AD080028556D /* ApplyingJobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED4F1D23AD080028556D /* ApplyingJobController.swift */; };
+		C211ED521D23AECC0028556D /* CurrentJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED511D23AECC0028556D /* CurrentJobsViewController.swift */; };
+		C211ED541D23AEDE0028556D /* PostingJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED531D23AEDE0028556D /* PostingJobsViewController.swift */; };
+		C211ED581D23B29D0028556D /* MyJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED561D23B29D0028556D /* MyJobCell.swift */; };
+		C211ED591D23B29D0028556D /* MyJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C211ED571D23B29D0028556D /* MyJobCell.xib */; };
+		C211ED5B1D23DF6A0028556D /* PostingJobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED5A1D23DF6A0028556D /* PostingJobDetailViewController.swift */; };
+		C211ED5D1D23F6350028556D /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211ED5C1D23F6350028556D /* MessagesViewController.swift */; };
+		C225E3571D13E1EC0074E7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C225E3511D13E1EC0074E7A0 /* Assets.xcassets */; };
+		C225E3581D13E1EC0074E7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C225E3521D13E1EC0074E7A0 /* LaunchScreen.storyboard */; };
+		C225E35B1D13E2760074E7A0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E35A1D13E2760074E7A0 /* HomeController.swift */; };
+		C2402B1E1D13E4CA00E106E7 /* PostJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B1D1D13E4CA00E106E7 /* PostJobViewController.swift */; };
+		C2402B201D13E51900E106E7 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B1F1D13E51900E106E7 /* JobDetailViewController.swift */; };
+		C2402B221D13E52900E106E7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B211D13E52900E106E7 /* AccountViewController.swift */; };
+		C2402B241D13E77200E106E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2402B231D13E77200E106E7 /* GoogleService-Info.plist */; };
+		C2402B2A1D13F0A000E106E7 /* default_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C2402B291D13F0A000E106E7 /* default_placeholder.png */; };
+		C2402B2F1D13F87100E106E7 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B2D1D13F87100E106E7 /* JobCell.swift */; };
+		C2402B301D13F87100E106E7 /* JobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2402B2E1D13F87100E106E7 /* JobCell.xib */; };
+		C2402B331D13F89300E106E7 /* InputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B311D13F89300E106E7 /* InputCell.swift */; };
+		C2402B341D13F89300E106E7 /* InputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2402B321D13F89300E106E7 /* InputCell.xib */; };
+		C2402B3A1D14081200E106E7 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B391D14081200E106E7 /* Parent.swift */; };
+		C2402B401D140B7800E106E7 /* ApplicantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B3E1D140B7800E106E7 /* ApplicantCell.swift */; };
+		C2402B411D140B7800E106E7 /* ApplicantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2402B3F1D140B7800E106E7 /* ApplicantCell.xib */; };
+		C2402B431D140DF600E106E7 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2402B421D140DF600E106E7 /* UserProfileViewController.swift */; };
+		C294CD2A1D13DFC400131773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294CD291D13DFC400131773 /* AppDelegate.swift */; };
+		C29F5CCB1D1FF8910054B568 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F5CC21D1FF8910054B568 /* GeoFire.m */; };
+		C29F5CCC1D1FF8910054B568 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F5CC41D1FF8910054B568 /* GFBase32Utils.m */; };
+		C29F5CCD1D1FF8910054B568 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F5CC61D1FF8910054B568 /* GFGeoHash.m */; };
+		C29F5CCE1D1FF8910054B568 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F5CC81D1FF8910054B568 /* GFGeoHashQuery.m */; };
+		C29F5CCF1D1FF8910054B568 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F5CCA1D1FF8910054B568 /* GFQuery.m */; };
+		C2D972291D2546AB00F848FC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D972281D2546AB00F848FC /* logo.png */; };
+		C2EACBA51D1D411400C5BD14 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBA21D1D411400C5BD14 /* CreateAccountViewController.swift */; };
+		C2EACBA61D1D411400C5BD14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBA31D1D411400C5BD14 /* LoginViewController.swift */; };
+		C2EACBAA1D1D518700C5BD14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBA91D1D518700C5BD14 /* Constants.swift */; };
+		C2EACBBC1D1ED37300C5BD14 /* AddPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBBA1D1ED37300C5BD14 /* AddPictureCell.swift */; };
+		C2EACBBD1D1ED37300C5BD14 /* AddPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EACBBB1D1ED37300C5BD14 /* AddPictureCell.xib */; };
+		C2EACBC11D1ED94F00C5BD14 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBBF1D1ED94F00C5BD14 /* DateCell.swift */; };
+		C2EACBC21D1ED94F00C5BD14 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EACBC01D1ED94F00C5BD14 /* DateCell.xib */; };
+		C2EACBC41D1EE33700C5BD14 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EACBC31D1EE33700C5BD14 /* Helpers.swift */; };
+		D5004B5C1D2A3A54007460E9 /* msg.png in Resources */ = {isa = PBXBuildFile; fileRef = D5004B591D2A3A54007460E9 /* msg.png */; };
+		D5004B5D1D2A3A54007460E9 /* notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = D5004B5A1D2A3A54007460E9 /* notifications.png */; };
+		D50101211D2A59F60015B9F5 /* msg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D501011E1D2A59F60015B9F5 /* msg_1.png */; };
+		D50101221D2A59F60015B9F5 /* notification.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D501011F1D2A59F60015B9F5 /* notification.jpeg */; };
+		D50101231D2A59F60015B9F5 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = D50101201D2A59F60015B9F5 /* plus.png */; };
+		D503587A1D2F932400236D10 /* plus+.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D50358791D2F932400236D10 /* plus+.jpg */; };
+		D5FDA0491D2BC6F2002FA59A /* apply1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FDA0481D2BC6F2002FA59A /* apply1.png */; };
+		D5FE9BFB1D2D142000D48F19 /* MsgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE9BF91D2D142000D48F19 /* MsgCell.swift */; };
+		D5FE9BFC1D2D142000D48F19 /* MsgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FE9BFA1D2D142000D48F19 /* MsgCell.xib */; };
+		D5FE9BFE1D2D1A4000D48F19 /* JobMsgListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE9BFD1D2D1A4000D48F19 /* JobMsgListViewController.swift */; };
+		D5FE9C011D2D1F9F00D48F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FE9BFF1D2D1F9F00D48F19 /* Main.storyboard */; };
+		D5FE9C051D2D3C2900D48F19 /* MessageRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE9C041D2D3C2900D48F19 /* MessageRoomController.swift */; };
+		E5D6A7D6C72C9B40DD222CF6 /* Pods_jobApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BDDB0AFC6DA47AAFAAF70D /* Pods_jobApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1854518D5606123B02EB3F2A /* Pods-jobApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-jobApp/Pods-jobApp.release.xcconfig"; sourceTree = "<group>"; };
+		54BDDB0AFC6DA47AAFAAF70D /* Pods_jobApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jobApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9906696DA1A512CBA8B97816 /* Pods-jobApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jobApp/Pods-jobApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C200567B1D25818A0065474C /* DescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		C200567C1D25818A0065474C /* DescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionCell.xib; sourceTree = "<group>"; };
+		C211ED4F1D23AD080028556D /* ApplyingJobController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyingJobController.swift; sourceTree = "<group>"; };
+		C211ED511D23AECC0028556D /* CurrentJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentJobsViewController.swift; sourceTree = "<group>"; };
+		C211ED531D23AEDE0028556D /* PostingJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingJobsViewController.swift; sourceTree = "<group>"; };
+		C211ED561D23B29D0028556D /* MyJobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyJobCell.swift; sourceTree = "<group>"; };
+		C211ED571D23B29D0028556D /* MyJobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyJobCell.xib; sourceTree = "<group>"; };
+		C211ED5A1D23DF6A0028556D /* PostingJobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingJobDetailViewController.swift; sourceTree = "<group>"; };
+		C211ED5C1D23F6350028556D /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C225E3511D13E1EC0074E7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C225E3531D13E1EC0074E7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C225E35A1D13E2760074E7A0 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		C2402B1D1D13E4CA00E106E7 /* PostJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostJobViewController.swift; sourceTree = "<group>"; };
+		C2402B1F1D13E51900E106E7 /* JobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		C2402B211D13E52900E106E7 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C2402B231D13E77200E106E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2402B291D13F0A000E106E7 /* default_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_placeholder.png; sourceTree = "<group>"; };
+		C2402B2D1D13F87100E106E7 /* JobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		C2402B2E1D13F87100E106E7 /* JobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobCell.xib; sourceTree = "<group>"; };
+		C2402B311D13F89300E106E7 /* InputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCell.swift; sourceTree = "<group>"; };
+		C2402B321D13F89300E106E7 /* InputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCell.xib; sourceTree = "<group>"; };
+		C2402B391D14081200E106E7 /* Parent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		C2402B3E1D140B7800E106E7 /* ApplicantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantCell.swift; sourceTree = "<group>"; };
+		C2402B3F1D140B7800E106E7 /* ApplicantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicantCell.xib; sourceTree = "<group>"; };
+		C2402B421D140DF600E106E7 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		C294CD261D13DFC400131773 /* Day.Jobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day.Jobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C294CD291D13DFC400131773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C294CD351D13DFC500131773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29F5CBB1D1FF8910054B568 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		C29F5CBC1D1FF8910054B568 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		C29F5CBD1D1FF8910054B568 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		C29F5CBE1D1FF8910054B568 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		C29F5CBF1D1FF8910054B568 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		C29F5CC11D1FF8910054B568 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		C29F5CC21D1FF8910054B568 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		C29F5CC31D1FF8910054B568 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		C29F5CC41D1FF8910054B568 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		C29F5CC51D1FF8910054B568 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		C29F5CC61D1FF8910054B568 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		C29F5CC71D1FF8910054B568 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		C29F5CC81D1FF8910054B568 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		C29F5CC91D1FF8910054B568 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		C29F5CCA1D1FF8910054B568 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		C29F5CD01D1FF9530054B568 /* jobApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jobApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2D972281D2546AB00F848FC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C2EACBA21D1D411400C5BD14 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		C2EACBA31D1D411400C5BD14 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C2EACBA91D1D518700C5BD14 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2EACBBA1D1ED37300C5BD14 /* AddPictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPictureCell.swift; sourceTree = "<group>"; };
+		C2EACBBB1D1ED37300C5BD14 /* AddPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPictureCell.xib; sourceTree = "<group>"; };
+		C2EACBBF1D1ED94F00C5BD14 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		C2EACBC01D1ED94F00C5BD14 /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		C2EACBC31D1EE33700C5BD14 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D5004B591D2A3A54007460E9 /* msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg.png; sourceTree = "<group>"; };
+		D5004B5A1D2A3A54007460E9 /* notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notifications.png; sourceTree = "<group>"; };
+		D501011E1D2A59F60015B9F5 /* msg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_1.png; sourceTree = "<group>"; };
+		D501011F1D2A59F60015B9F5 /* notification.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notification.jpeg; sourceTree = "<group>"; };
+		D50101201D2A59F60015B9F5 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		D50358791D2F932400236D10 /* plus+.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "plus+.jpg"; sourceTree = "<group>"; };
+		D5FDA0481D2BC6F2002FA59A /* apply1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apply1.png; sourceTree = "<group>"; };
+		D5FE9BF91D2D142000D48F19 /* MsgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MsgCell.swift; path = MsgCell/MsgCell.swift; sourceTree = "<group>"; };
+		D5FE9BFA1D2D142000D48F19 /* MsgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MsgCell.xib; path = MsgCell/MsgCell.xib; sourceTree = "<group>"; };
+		D5FE9BFD1D2D1A4000D48F19 /* JobMsgListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobMsgListViewController.swift; sourceTree = "<group>"; };
+		D5FE9C001D2D1F9F00D48F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5FE9C041D2D3C2900D48F19 /* MessageRoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRoomController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C294CD231D13DFC400131773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D6A7D6C72C9B40DD222CF6 /* Pods_jobApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A514B0D6AEF012A746FCE378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54BDDB0AFC6DA47AAFAAF70D /* Pods_jobApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C200567A1D2581750065474C /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				C200567B1D25818A0065474C /* DescriptionCell.swift */,
+				C200567C1D25818A0065474C /* DescriptionCell.xib */,
+			);
+			path = DescriptionCell;
+			sourceTree = "<group>";
+		};
+		C211ED4C1D23AC9C0028556D /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				C211ED4F1D23AD080028556D /* ApplyingJobController.swift */,
+				C211ED511D23AECC0028556D /* CurrentJobsViewController.swift */,
+				C211ED531D23AEDE0028556D /* PostingJobsViewController.swift */,
+				C211ED5A1D23DF6A0028556D /* PostingJobDetailViewController.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		C211ED551D23B24B0028556D /* MyJobCell */ = {
+			isa = PBXGroup;
+			children = (
+				C211ED561D23B29D0028556D /* MyJobCell.swift */,
+				C211ED571D23B29D0028556D /* MyJobCell.xib */,
+			);
+			path = MyJobCell;
+			sourceTree = "<group>";
+		};
+		C225E34F1D13E1EC0074E7A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2EACBA01D1D40F900C5BD14 /* Login */,
+				C211ED4C1D23AC9C0028556D /* Jobs */,
+				C225E35A1D13E2760074E7A0 /* HomeController.swift */,
+				C2402B1D1D13E4CA00E106E7 /* PostJobViewController.swift */,
+				C2402B1F1D13E51900E106E7 /* JobDetailViewController.swift */,
+				C2402B211D13E52900E106E7 /* AccountViewController.swift */,
+				C2402B421D140DF600E106E7 /* UserProfileViewController.swift */,
+				C2402B391D14081200E106E7 /* Parent.swift */,
+				C211ED5C1D23F6350028556D /* MessagesViewController.swift */,
+				D5FE9BFD1D2D1A4000D48F19 /* JobMsgListViewController.swift */,
+				D5FE9C041D2D3C2900D48F19 /* MessageRoomController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C225E3501D13E1EC0074E7A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D50358791D2F932400236D10 /* plus+.jpg */,
+				D5FDA0481D2BC6F2002FA59A /* apply1.png */,
+				D501011E1D2A59F60015B9F5 /* msg_1.png */,
+				D501011F1D2A59F60015B9F5 /* notification.jpeg */,
+				D50101201D2A59F60015B9F5 /* plus.png */,
+				D5004B591D2A3A54007460E9 /* msg.png */,
+				D5004B5A1D2A3A54007460E9 /* notifications.png */,
+				C2D972281D2546AB00F848FC /* logo.png */,
+				C2402B291D13F0A000E106E7 /* default_placeholder.png */,
+				C225E3511D13E1EC0074E7A0 /* Assets.xcassets */,
+				C225E3521D13E1EC0074E7A0 /* LaunchScreen.storyboard */,
+				D5FE9BFF1D2D1F9F00D48F19 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C225E3561D13E1EC0074E7A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE9BF81D2D13FB00D48F19 /* MsgCell */,
+				C200567A1D2581750065474C /* DescriptionCell */,
+				C211ED551D23B24B0028556D /* MyJobCell */,
+				C2EACBBE1D1ED94400C5BD14 /* DateCell */,
+				C2EACBB91D1ED35900C5BD14 /* AddPicture */,
+				C2402B3B1D140B5300E106E7 /* ApplicantCell */,
+				C2402B2B1D13F87100E106E7 /* InputCell */,
+				C2402B2C1D13F87100E106E7 /* JobCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2402B2B1D13F87100E106E7 /* InputCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2402B311D13F89300E106E7 /* InputCell.swift */,
+				C2402B321D13F89300E106E7 /* InputCell.xib */,
+			);
+			path = InputCell;
+			sourceTree = "<group>";
+		};
+		C2402B2C1D13F87100E106E7 /* JobCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2402B2D1D13F87100E106E7 /* JobCell.swift */,
+				C2402B2E1D13F87100E106E7 /* JobCell.xib */,
+			);
+			path = JobCell;
+			sourceTree = "<group>";
+		};
+		C2402B3B1D140B5300E106E7 /* ApplicantCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2402B3E1D140B7800E106E7 /* ApplicantCell.swift */,
+				C2402B3F1D140B7800E106E7 /* ApplicantCell.xib */,
+			);
+			path = ApplicantCell;
+			sourceTree = "<group>";
+		};
+		C294CD1D1D13DFC400131773 = {
+			isa = PBXGroup;
+			children = (
+				C294CD281D13DFC400131773 /* jobApp */,
+				C294CD271D13DFC400131773 /* Products */,
+				ECDB36BF305CDE9FFC352C21 /* Pods */,
+				A514B0D6AEF012A746FCE378 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C294CD271D13DFC400131773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C294CD261D13DFC400131773 /* Day.Jobs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C294CD281D13DFC400131773 /* jobApp */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5CB81D1FF8910054B568 /* 3rdParty */,
+				C225E3561D13E1EC0074E7A0 /* View */,
+				C225E34F1D13E1EC0074E7A0 /* Controller */,
+				C225E3501D13E1EC0074E7A0 /* Resources */,
+				C294CD291D13DFC400131773 /* AppDelegate.swift */,
+				C2EACBA91D1D518700C5BD14 /* Constants.swift */,
+				C2EACBC31D1EE33700C5BD14 /* Helpers.swift */,
+				C29F5CD01D1FF9530054B568 /* jobApp-Bridging-Header.h */,
+				C2402B231D13E77200E106E7 /* GoogleService-Info.plist */,
+				C294CD351D13DFC500131773 /* Info.plist */,
+			);
+			path = jobApp;
+			sourceTree = "<group>";
+		};
+		C29F5CB81D1FF8910054B568 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5CB91D1FF8910054B568 /* GeoFire */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		C29F5CB91D1FF8910054B568 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5CBA1D1FF8910054B568 /* API */,
+				C29F5CBF1D1FF8910054B568 /* GeoFire-Prefix.pch */,
+				C29F5CC01D1FF8910054B568 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		C29F5CBA1D1FF8910054B568 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5CBB1D1FF8910054B568 /* GeoFire.h */,
+				C29F5CBC1D1FF8910054B568 /* GFCircleQuery.h */,
+				C29F5CBD1D1FF8910054B568 /* GFQuery.h */,
+				C29F5CBE1D1FF8910054B568 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C29F5CC01D1FF8910054B568 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5CC11D1FF8910054B568 /* GeoFire+Private.h */,
+				C29F5CC21D1FF8910054B568 /* GeoFire.m */,
+				C29F5CC31D1FF8910054B568 /* GFBase32Utils.h */,
+				C29F5CC41D1FF8910054B568 /* GFBase32Utils.m */,
+				C29F5CC51D1FF8910054B568 /* GFGeoHash.h */,
+				C29F5CC61D1FF8910054B568 /* GFGeoHash.m */,
+				C29F5CC71D1FF8910054B568 /* GFGeoHashQuery.h */,
+				C29F5CC81D1FF8910054B568 /* GFGeoHashQuery.m */,
+				C29F5CC91D1FF8910054B568 /* GFQuery+Private.h */,
+				C29F5CCA1D1FF8910054B568 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		C2EACBA01D1D40F900C5BD14 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2EACBA31D1D411400C5BD14 /* LoginViewController.swift */,
+				C2EACBA21D1D411400C5BD14 /* CreateAccountViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C2EACBB91D1ED35900C5BD14 /* AddPicture */ = {
+			isa = PBXGroup;
+			children = (
+				C2EACBBA1D1ED37300C5BD14 /* AddPictureCell.swift */,
+				C2EACBBB1D1ED37300C5BD14 /* AddPictureCell.xib */,
+			);
+			path = AddPicture;
+			sourceTree = "<group>";
+		};
+		C2EACBBE1D1ED94400C5BD14 /* DateCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2EACBBF1D1ED94F00C5BD14 /* DateCell.swift */,
+				C2EACBC01D1ED94F00C5BD14 /* DateCell.xib */,
+			);
+			path = DateCell;
+			sourceTree = "<group>";
+		};
+		D5FE9BF81D2D13FB00D48F19 /* MsgCell */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE9BF91D2D142000D48F19 /* MsgCell.swift */,
+				D5FE9BFA1D2D142000D48F19 /* MsgCell.xib */,
+			);
+			name = MsgCell;
+			sourceTree = "<group>";
+		};
+		ECDB36BF305CDE9FFC352C21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9906696DA1A512CBA8B97816 /* Pods-jobApp.debug.xcconfig */,
+				1854518D5606123B02EB3F2A /* Pods-jobApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C294CD251D13DFC400131773 /* jobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C294CD381D13DFC500131773 /* Build configuration list for PBXNativeTarget "jobApp" */;
+			buildPhases = (
+				3131B3906A83B23D24E76C3A /* [CP] Check Pods Manifest.lock */,
+				C294CD221D13DFC400131773 /* Sources */,
+				C294CD231D13DFC400131773 /* Frameworks */,
+				C294CD241D13DFC400131773 /* Resources */,
+				7754CED2920F61A78CF8E95E /* [CP] Embed Pods Frameworks */,
+				64294C3A7764CE9BAFACDB17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jobApp;
+			productName = jobApp;
+			productReference = C294CD261D13DFC400131773 /* Day.Jobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C294CD1E1D13DFC400131773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrii Ternovyi";
+				TargetAttributes = {
+					C294CD251D13DFC400131773 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C294CD211D13DFC400131773 /* Build configuration list for PBXProject "jobApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C294CD1D1D13DFC400131773;
+			productRefGroup = C294CD271D13DFC400131773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C294CD251D13DFC400131773 /* jobApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C294CD241D13DFC400131773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200567E1D25818A0065474C /* DescriptionCell.xib in Resources */,
+				D5FE9C011D2D1F9F00D48F19 /* Main.storyboard in Resources */,
+				D5004B5C1D2A3A54007460E9 /* msg.png in Resources */,
+				D503587A1D2F932400236D10 /* plus+.jpg in Resources */,
+				D5FE9BFC1D2D142000D48F19 /* MsgCell.xib in Resources */,
+				C2402B241D13E77200E106E7 /* GoogleService-Info.plist in Resources */,
+				D50101221D2A59F60015B9F5 /* notification.jpeg in Resources */,
+				C2EACBBD1D1ED37300C5BD14 /* AddPictureCell.xib in Resources */,
+				C2402B2A1D13F0A000E106E7 /* default_placeholder.png in Resources */,
+				D5004B5D1D2A3A54007460E9 /* notifications.png in Resources */,
+				D50101211D2A59F60015B9F5 /* msg_1.png in Resources */,
+				C2EACBC21D1ED94F00C5BD14 /* DateCell.xib in Resources */,
+				C2402B411D140B7800E106E7 /* ApplicantCell.xib in Resources */,
+				D50101231D2A59F60015B9F5 /* plus.png in Resources */,
+				C211ED591D23B29D0028556D /* MyJobCell.xib in Resources */,
+				C2402B341D13F89300E106E7 /* InputCell.xib in Resources */,
+				C2D972291D2546AB00F848FC /* logo.png in Resources */,
+				C225E3571D13E1EC0074E7A0 /* Assets.xcassets in Resources */,
+				D5FDA0491D2BC6F2002FA59A /* apply1.png in Resources */,
+				C2402B301D13F87100E106E7 /* JobCell.xib in Resources */,
+				C225E3581D13E1EC0074E7A0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3131B3906A83B23D24E76C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64294C3A7764CE9BAFACDB17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jobApp/Pods-jobApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7754CED2920F61A78CF8E95E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jobApp/Pods-jobApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C294CD221D13DFC400131773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EACBA61D1D411400C5BD14 /* LoginViewController.swift in Sources */,
+				C225E35B1D13E2760074E7A0 /* HomeController.swift in Sources */,
+				C29F5CCE1D1FF8910054B568 /* GFGeoHashQuery.m in Sources */,
+				C29F5CCD1D1FF8910054B568 /* GFGeoHash.m in Sources */,
+				C2402B221D13E52900E106E7 /* AccountViewController.swift in Sources */,
+				D5FE9BFE1D2D1A4000D48F19 /* JobMsgListViewController.swift in Sources */,
+				C2402B201D13E51900E106E7 /* JobDetailViewController.swift in Sources */,
+				C294CD2A1D13DFC400131773 /* AppDelegate.swift in Sources */,
+				C2EACBAA1D1D518700C5BD14 /* Constants.swift in Sources */,
+				C200567D1D25818A0065474C /* DescriptionCell.swift in Sources */,
+				C211ED501D23AD080028556D /* ApplyingJobController.swift in Sources */,
+				C2402B401D140B7800E106E7 /* ApplicantCell.swift in Sources */,
+				C211ED521D23AECC0028556D /* CurrentJobsViewController.swift in Sources */,
+				C2EACBC11D1ED94F00C5BD14 /* DateCell.swift in Sources */,
+				C2EACBA51D1D411400C5BD14 /* CreateAccountViewController.swift in Sources */,
+				C2EACBBC1D1ED37300C5BD14 /* AddPictureCell.swift in Sources */,
+				C2EACBC41D1EE33700C5BD14 /* Helpers.swift in Sources */,
+				C211ED541D23AEDE0028556D /* PostingJobsViewController.swift in Sources */,
+				C211ED5B1D23DF6A0028556D /* PostingJobDetailViewController.swift in Sources */,
+				C211ED581D23B29D0028556D /* MyJobCell.swift in Sources */,
+				C2402B1E1D13E4CA00E106E7 /* PostJobViewController.swift in Sources */,
+				C29F5CCC1D1FF8910054B568 /* GFBase32Utils.m in Sources */,
+				C2402B2F1D13F87100E106E7 /* JobCell.swift in Sources */,
+				C211ED5D1D23F6350028556D /* MessagesViewController.swift in Sources */,
+				D5FE9C051D2D3C2900D48F19 /* MessageRoomController.swift in Sources */,
+				C2402B331D13F89300E106E7 /* InputCell.swift in Sources */,
+				C2402B431D140DF600E106E7 /* UserProfileViewController.swift in Sources */,
+				C2402B3A1D14081200E106E7 /* Parent.swift in Sources */,
+				D5FE9BFB1D2D142000D48F19 /* MsgCell.swift in Sources */,
+				C29F5CCB1D1FF8910054B568 /* GeoFire.m in Sources */,
+				C29F5CCF1D1FF8910054B568 /* GFQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C225E3521D13E1EC0074E7A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C225E3531D13E1EC0074E7A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D5FE9BFF1D2D1F9F00D48F19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FE9C001D2D1F9F00D48F19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C294CD361D13DFC500131773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C294CD371D13DFC500131773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C294CD391D13DFC500131773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9906696DA1A512CBA8B97816 /* Pods-jobApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = jobApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrii-Ternovyi.jobApp";
+				PRODUCT_NAME = Day.Jobs;
+				SWIFT_OBJC_BRIDGING_HEADER = "jobApp/jobApp-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C294CD3A1D13DFC500131773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1854518D5606123B02EB3F2A /* Pods-jobApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = jobApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrii-Ternovyi.jobApp";
+				PRODUCT_NAME = Day.Jobs;
+				SWIFT_OBJC_BRIDGING_HEADER = "jobApp/jobApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C294CD211D13DFC400131773 /* Build configuration list for PBXProject "jobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C294CD361D13DFC500131773 /* Debug */,
+				C294CD371D13DFC500131773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C294CD381D13DFC500131773 /* Build configuration list for PBXNativeTarget "jobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C294CD391D13DFC500131773 /* Debug */,
+				C294CD3A1D13DFC500131773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C294CD1E1D13DFC400131773 /* Project object */;
+}

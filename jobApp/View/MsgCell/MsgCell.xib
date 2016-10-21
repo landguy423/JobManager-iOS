@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MsgCell" rowHeight="74" id="KGk-i7-Jjw" customClass="MsgCell" customModule="Day_Jobs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="K7c-MJ-cK2">
+                        <rect key="frame" x="14" y="14" width="45" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="99l-92-WXo"/>
+                            <constraint firstAttribute="height" constant="45" id="d3B-73-7wH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test test test test test test test test test test test test" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9PB-wF-pm4">
+                        <rect key="frame" x="73" y="21" width="229" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="229" id="2K6-QJ-frE"/>
+                            <constraint firstAttribute="height" constant="32" id="iaJ-mD-1GL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="K7c-MJ-cK2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0WX-aF-jXd"/>
+                    <constraint firstItem="K7c-MJ-cK2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="2Dx-P1-Cwf"/>
+                    <constraint firstItem="9PB-wF-pm4" firstAttribute="leading" secondItem="K7c-MJ-cK2" secondAttribute="trailing" constant="14" id="MVn-JS-hLh"/>
+                    <constraint firstItem="9PB-wF-pm4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fxU-JV-qEi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgUser" destination="K7c-MJ-cK2" id="cVi-ID-UJz"/>
+                <outlet property="lblInfo" destination="9PB-wF-pm4" id="Vu9-bJ-z8e"/>
+            </connections>
+            <point key="canvasLocation" x="673.5" y="393"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_placeholder.png" width="1500" height="1500"/>
+    </resources>
+</document>
